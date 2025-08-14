@@ -75,6 +75,13 @@ h2 {
     gap: 5px;
 }
 
+button{
+    color: #000000;
+    font-family: 'Crimson Pro, serif';
+    font-size: 0.9em;
+    background-color: #ffcc00;
+}
+
 #playAgainContainer {
     display: flex;
     justify-content: center;
@@ -82,5 +89,8 @@ h2 {
 }
 
 hr {
-    max-width: 27%;
+    max-width: 34%;
+    background-color: #2e792e;
+    border: 0;
+    height: 1px
 }
