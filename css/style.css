@@ -1,0 +1,86 @@
+body {
+    background-color: #003a08;
+}
+
+main {
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-family: 'Crimson Pro', serif;
+    color: #eeeeee;
+    margin-top: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #ffcc00;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#results-box {
+    background-color: #004d00;
+    border: 1px solid #ffcc00;
+    padding: 20px;
+    margin: 0px auto;
+    width: fit-content;
+    max-width: 100%;
+    display: block;
+    color: #eeeeee;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+#results-box h3{
+    margin-top: 0px;
+}
+
+#scoreboard{
+    margin-top: 0px;
+}
+
+#scoreboard p{
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rules-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rules-container ul {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2em;
+    color:#eeeeee;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#playAgainContainer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+hr {
+    max-width: 27%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Mason Wachter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <title>Bear Ninja Hunter</title>
+</head>
+
+<body>
+  <main>
+    <!-- Heading -->
+    <h2>Bear, Ninja, Hunter</h2>
+    <p>Play against the computer!</p>
+
+    <!-- Rules List -->
+    <div class="rules-container">
+      <ul>
+        <li>The Bear beats the Hunter.</li>
+        <li>The Hunter beats the Ninja.</li>
+        <li>And the Ninja beats the Bear.</li>
+      </ul>
+    </div>
+
+    <!-- Initial Choice Section -->
+    <p>Click a button below to select your choice.</p>
+    
+    <hr>
+    <div class="button-row">
+      <button onclick = "storeChoice('Bear');">Bear</button>
+      <button onclick = "storeChoice('Ninja');">Ninja</button>
+      <button onclick = "storeChoice('Hunter');">Hunter</button>
+    </div>
+    <hr>
+
+    <!-- Results Box -->
+    <div id="results-box" class="hidden">
+      <h3 id="playerCharacter"></h3>
+      <h3 id="computerCharacter"></h3>
+      <h3 id="roundResult"></h3>
+    </div>
+
+    <!-- Win Counter -->
+    <div id="scoreboard" class="hidden">
+      <p id="playerWins">Your Wins: 0</p>
+      <p id="computerWins">Computer Wins: 0</p>
+    </div>
+
+    <hr id="buttonHeader1" class="hidden">
+    <!-- Play Again Button -->
+    <div id="playAgainContainer" class="hidden">
+      <button onclick = "playAgain();">Play Again?</button>
+    </div>
+    <hr id="buttonHeader2" class="hidden">
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
